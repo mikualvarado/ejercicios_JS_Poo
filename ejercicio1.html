@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			const numeroDeElementos = 7;
+
+			let a = 0;
+			let	b = 1;
+
+			console.log('Serie Fibonacci hasta el elemento ' + numeroDeElementos + ':');
+
+			for (let i = 0; i < numeroDeElementos; i++) {
+				console.log(a);
+				let aux = a + b;
+				a = b;
+				b = aux;
+			}
+		</script>
+	</body>
+</html>
